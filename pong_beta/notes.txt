@@ -1,0 +1,49 @@
+needs to be listening for
+
+key press(space) [0]
+mouse move	[1]
+ball hits left	[2]
+ball hits right	[3]
+ball hits top	[4]
+ball hits circle	[5]
+ball hits bottom	[6]
+
+case [0] 
+	begin
+case [1]
+	circle move
+case [2]
+	execute left bounce
+case [3]
+	execute right bounce
+case [4]
+	execute top bounce
+case [5]
+	execute circle bounce
+case [6]
+	end
+
+
+functions
+
+tan
+atan
+drawline
+drawcircle
+squared
+round
+
+begin
+return moved circle values
+return left bounce value
+return right ^		^
+return top 	 ^		^
+return circle ^		^
+end
+
+main (in a set interval)
+
+objects
+
+ball
+circle

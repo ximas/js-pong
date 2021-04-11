@@ -1,0 +1,5 @@
+CP = circumference point [x,y]
+CL = center of circle to CP [g,i]
+PL = perpendicular line [g,i]
+PA = parallel variables [g,i]
+RL = reflected line [g,i,a]
